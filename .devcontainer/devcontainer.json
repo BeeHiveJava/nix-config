@@ -2,7 +2,17 @@
   "name": "template",
   "image": "ghcr.io/beehivejava/template:default",
   "postCreateCommand": "sh chezmoi.sh && pre-commit install --install-hooks",
+  "features": {
+    "ghcr.io/devcontainers/features/nix:1": {}
+  },
   "mounts": [
     "source=C:/sops/age/keys.txt,target=/home/vscode/.config/sops/age/keys.txt,type=bind,consistency=cached"
-  ]
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bbenoist.Nix"
+      ]
+    }
+  }
 }
