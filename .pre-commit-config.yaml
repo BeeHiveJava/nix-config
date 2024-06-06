@@ -1,0 +1,13 @@
+---
+repos:
+- repo: https://github.com/editorconfig-checker/editorconfig-checker.python
+  rev: 2.7.3
+  hooks:
+  - id: editorconfig-checker
+    alias: ec
+
+- repo: https://github.com/adrienverge/yamllint
+  rev: v1.35.1
+  hooks:
+  - id: yamllint
+    args: [-c=.yamllint.yaml]

@@ -1,0 +1,24 @@
+
+# Build files
+**/node_modules/
+**/dist/
+
+# Generally ignored files
+**/.aws/
+**/.sam/
+**/*.log*
+**/*.db*
+**/*.env
+**/.decrypted~*
+
+# Terraform files
+**/.terraform/
+**/*.tfstate*
+**/*.tfvars*
+
+# Ignore files created by IDEs
+**/.idea/
+**/.vscode/
+
+# Include specific files
+!.gitkeep
