@@ -14,6 +14,7 @@
       keybindings = lib.mkOptionDefault {
         "${modifier}+d" = "exec ${pkgs.rofi}/bin/rofi -modi drun -show drun";
         "${modifier}+Shift+d" = "exec ${pkgs.rofi}/bin/rofi -show window";
+        "${modifier}+Return" = "exec ${pkgs.wezterm}/bin/wezterm";
       };
 
       startup = [

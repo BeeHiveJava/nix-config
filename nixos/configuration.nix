@@ -4,6 +4,7 @@
     ./networking.nix
     ./users.nix
     ./xfce.nix
+    ./fonts.nix
   ];
 
   nixpkgs = {
