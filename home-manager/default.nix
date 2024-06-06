@@ -1,8 +1,10 @@
 { ... }: {
   imports = [
+    ./browser
+    ./code
     ./desktop
-    ./shell
     ./git
+    ./shell
   ];
 
   nixpkgs = {

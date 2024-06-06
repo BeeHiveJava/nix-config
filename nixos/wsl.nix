@@ -21,5 +21,9 @@
     ];
   };
 
+  environment.variables = {
+    DONT_PROMPT_WSL_INSTALL = "1";
+  };
+
   nixpkgs.hostPlatform = "x86_64-linux";
 }
