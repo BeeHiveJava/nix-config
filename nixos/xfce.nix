@@ -1,4 +1,4 @@
-{ ... }: {
+{ pkgs, ... }: {
 
   environment.pathsToLink = [ "/libexec" ];
 
@@ -47,5 +47,4 @@
       };
     };
   };
-
 }
