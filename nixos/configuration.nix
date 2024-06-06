@@ -3,6 +3,7 @@
     ./wsl.nix
     ./networking.nix
     ./users.nix
+    ./xfce.nix
   ];
 
   nixpkgs = {
