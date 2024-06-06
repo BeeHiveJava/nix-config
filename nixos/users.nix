@@ -2,7 +2,7 @@
   users.users = {
     lesley = {
       isNormalUser = true;
-      extraGroups = ["wheel"];
+      extraGroups = ["wheel" "docker"];
       initialPassword = "changeme";
     };
   };
