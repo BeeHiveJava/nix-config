@@ -39,7 +39,12 @@
     };
 
     displayManager = {
+      enable = true;
       defaultSession = "xfce+i3";
+      autoLogin = {
+        enable = true;
+        user = "lesley";
+      };
     };
   };
 
