@@ -1,0 +1,11 @@
+
+{
+  "suppressNotifications": ["prIgnoreNotification"],
+  "extends": [
+    "config:base",
+    ":enablePreCommit",
+    ":disableDependencyDashboard",
+    ":disableRateLimiting",
+    ":semanticCommits"
+  ]
+}

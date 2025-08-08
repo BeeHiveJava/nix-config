@@ -1,0 +1,10 @@
+---
+keys:
+# Users
+- &bee age1nytc57qdynd4v7skewp20huj0f5lrm8q36sqmmmmx4mzessh4c5qhq8c95
+# Hosts
+- &wsl age1e8warhumn3l5hlf7gqy48kxuzxd586r2m4wfwegv26rgj9ssevcsmk7m64
+
+creation_rules:
+- path_regex: users/.+/secrets.yaml$
+  key_groups: [{ age: [*bee, *wsl] }]
