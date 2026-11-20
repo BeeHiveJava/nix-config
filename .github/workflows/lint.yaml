@@ -37,7 +37,7 @@ jobs:
       uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
 
     - name: Install nix
-      uses: cachix/install-nix-action@v31
+      uses: cachix/install-nix-action@v32
 
     - name: Run nix-flake-checker
       uses: DeterminateSystems/flake-checker-action@v14
